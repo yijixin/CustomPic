@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomPic</string>
+    <string name="no_net">网络不可用,请检查你的网络</string>
+</resources>

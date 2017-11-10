@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chinaoly.cp.ImageActivity">
+
+    <com.chinaoly.cp.view.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"
+        app:titleText="Android Hello"
+        app:titleTextSize="30sp"
+        app:titleTextColor="#ff0000"
+        />
+
+    <com.chinaoly.cp.view.CustomImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"
+        app:titleText="Android Hello"
+        app:titleTextSize="20sp"
+        app:titleTextColor="#ff0000"
+        />
+
+    <com.chinaoly.cp.view.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/onepiece"
+        app:imageScaleType="center"
+        app:titleText="大疆地方时"
+        app:titleTextSize="12sp"
+        app:titleTextColor="#ff0000"
+        />
+    
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="titleText" format="string"/>
+    <attr name="titleTextSize" format="dimension"/>
+    <attr name="titleTextColor" format="color"/>
+
+    <declare-styleable name="CustomViewOne">
+        <attr name="titleText"/>
+        <attr name="titleTextSize"/>
+        <attr name="titleTextColor"/>
+    </declare-styleable>
+    
+    <attr name="image" format="reference"/>
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="titleText"/>
+        <attr name="titleTextSize"/>
+        <attr name="titleTextColor"/>
+        <attr name="image"/>
+        <attr name="imageScaleType"/>
+    </declare-styleable>
+
+    <attr name="firstColor" format="color"/>
+    <attr name="secondColor" format="color"/>
+    <attr name="circleWidth" format="dimension"/>
+    <attr name="speed" format="integer"/>
+
+    <declare-styleable name="HuanCustomView">
+        <attr name="firstColor"/>
+        <attr name="secondColor"/>
+        <attr name="circleWidth"/>
+        <attr name="speed"/>
+    </declare-styleable>
+
+</resources>
