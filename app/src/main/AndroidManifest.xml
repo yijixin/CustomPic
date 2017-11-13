@@ -16,6 +16,10 @@
         <activity android:name=".HuanActivity">
         </activity>
         <activity android:name=".RiLiActivity">
+
+        </activity>
+        <activity android:name=".RulerActivity"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

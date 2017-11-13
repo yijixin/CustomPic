@@ -36,5 +36,23 @@
         <attr name="circleWidth"/>
         <attr name="speed"/>
     </declare-styleable>
+    
+    
+    <!--时间刻度尺-->
+    <attr name="textSize" format="dimension"/>
+    <attr name="dateTimeSize" format="dimension"/>
+    <attr name="colorBg" format="color"/>
+    <attr name="colorMiddleLine" format="color"/>
+    <attr name="colorKeDu" format="color"/>
+    <attr name="colorTimeBg" format="color"/>
+    
+    <declare-styleable name="RulerView">
+        <attr name="textSize"/>
+        <attr name="dateTimeSize"/>
+        <attr name="colorBg"/>
+        <attr name="colorMiddleLine"/>
+        <attr name="colorKeDu"/>
+        <attr name="colorTimeBg"/>
+    </declare-styleable>
 
 </resources>

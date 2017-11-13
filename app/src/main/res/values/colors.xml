@@ -7,4 +7,9 @@
     <color name="ziti_01">#8696a5</color>
     <color name="ziti_02">#4384ed</color>
     <color name="ziti_03">#ffffff</color>
+    
+    <color name="color_bg">#55696663</color>
+    <color name="color_kedu">#ffffff</color>
+    <color name="color_time_bg">#4f82b4</color>
+    <color name="color_middle_line">#ff0000</color>
 </resources>
