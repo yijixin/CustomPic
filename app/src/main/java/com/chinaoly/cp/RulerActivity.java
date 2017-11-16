@@ -1,5 +1,7 @@
 package com.chinaoly.cp;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -34,6 +36,10 @@ public class RulerActivity extends AppCompatActivity implements ScalePanel.OnVal
         scalePanel.setTimeData(data);
         //设置当前时间
         scalePanel.setCalendar(mCalendar);
+    }
+
+    public static void startAction(Context context){
+        context.startActivity(new Intent(context,RulerActivity.class));
     }
 
     private void initData() {

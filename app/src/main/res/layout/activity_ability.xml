@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_ability"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chinaoly.cp.AbilityActivity">
+
+    <com.chinaoly.cp.view.AbilityLolView
+        android:id="@+id/ability_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:colorZuiWai="@color/color_qixing_zuiwai"
+        app:colorErCeng="@color/color_qixing_erceng"
+        app:colorSanCeng="@color/color_qixing_sanceng"
+        app:colorZuiNei="@color/color_qixing_zuinei"
+        />
+
+</LinearLayout>

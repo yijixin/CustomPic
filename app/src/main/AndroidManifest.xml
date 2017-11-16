@@ -16,15 +16,18 @@
         <activity android:name=".HuanActivity">
         </activity>
         <activity android:name=".RiLiActivity">
+        </activity>
+        <activity android:name=".RulerActivity">
 
         </activity>
-        <activity android:name=".RulerActivity"
-            >
+        <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".AbilityActivity">
         </activity>
     </application>
 

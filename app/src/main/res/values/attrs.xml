@@ -54,5 +54,17 @@
         <attr name="colorKeDu"/>
         <attr name="colorTimeBg"/>
     </declare-styleable>
+    
+    <attr name="colorZuiWai" format="color"/>
+    <attr name="colorErCeng" format="color"/>
+    <attr name="colorSanCeng" format="color"/>
+    <attr name="colorZuiNei" format="color"/>
+    
+    <declare-styleable name="AbilityLolView">
+        <attr name="colorZuiWai"/>
+        <attr name="colorErCeng"/>
+        <attr name="colorSanCeng"/>
+        <attr name="colorZuiNei"/>
+    </declare-styleable>
 
 </resources>

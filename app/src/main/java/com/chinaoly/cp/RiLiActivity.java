@@ -1,5 +1,7 @@
 package com.chinaoly.cp;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -42,6 +44,10 @@ public class RiLiActivity extends RxBaseActivity<RiLiPresenter,RiLiModel> implem
     @Override
     public int getLayoutId() {
         return R.layout.activity_ri_li;
+    }
+
+    public static void startAction(Context context){
+        context.startActivity(new Intent(context,RiLiActivity.class));
     }
 
     @Override

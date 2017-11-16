@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chinaoly.cp.MenuActivity">
+
+    <Button
+        android:id="@+id/btn_yuanhuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义圆环"
+        />
+
+    <Button
+        android:id="@+id/btn_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义图文适应View"
+        />
+
+    <Button
+        android:id="@+id/btn_bolang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义波浪效果和文字"
+        />
+
+    <Button
+        android:id="@+id/btn_rili"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日历的实现"
+        />
+
+    <Button
+        android:id="@+id/btn_ruler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间刻度尺"
+        />
+
+    <Button
+        android:id="@+id/btn_lol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义LOL能力图"
+        />
+
+</LinearLayout>
