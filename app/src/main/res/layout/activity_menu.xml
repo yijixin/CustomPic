@@ -50,4 +50,18 @@
         android:text="自定义LOL能力图"
         />
 
+    <Button
+        android:id="@+id/btn_gaode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="高德地图"
+        />
+
+    <Button
+        android:id="@+id/btn_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="练习项目"
+        />
+
 </LinearLayout>

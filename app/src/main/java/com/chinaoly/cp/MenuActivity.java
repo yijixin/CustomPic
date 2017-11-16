@@ -32,7 +32,7 @@ public class MenuActivity extends RxBaseActivity {
 
     }
 
-    @OnClick({R.id.btn_yuanhuan,R.id.btn_bolang,R.id.btn_img,R.id.btn_lol,R.id.btn_rili,R.id.btn_ruler})
+    @OnClick({R.id.btn_yuanhuan,R.id.btn_bolang,R.id.btn_img,R.id.btn_lol,R.id.btn_rili,R.id.btn_ruler,R.id.btn_gaode,R.id.btn_pic})
     void onClick(View view){
         switch (view.getId()){
             case R.id.btn_yuanhuan:
@@ -52,6 +52,12 @@ public class MenuActivity extends RxBaseActivity {
                 break;
             case R.id.btn_ruler:
                 RulerActivity.startAction(MenuActivity.this);
+                break;
+            case R.id.btn_gaode:
+                GaoDeMapActivity.startAction(MenuActivity.this);
+                break;
+            case R.id.btn_pic:
+                PicActivity.startAction(MenuActivity.this);
                 break;
             default:
                 break;
