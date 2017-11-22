@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import com.amap.api.maps.AMap;
@@ -19,11 +20,13 @@ import com.amap.api.maps.model.MarkerOptions;
 import com.amap.api.maps.model.MyLocationStyle;
 import com.chinaoly.cp.base.RxBaseActivity;
 import com.chinaoly.cp.beans.JingWeiDu;
+import com.chinaoly.cp.utils.AmapUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 
 /**
  * @author Yjx
@@ -51,6 +54,7 @@ public class GaoDeMapActivity extends RxBaseActivity implements AMap.OnMyLocatio
         if (aMap == null) {
             aMap = mMapView.getMap();
         }
+
         //设置层级
         aMap.moveCamera(CameraUpdateFactory.zoomTo(17));
         UiSettings mUiSettings = aMap.getUiSettings();
@@ -76,6 +80,16 @@ public class GaoDeMapActivity extends RxBaseActivity implements AMap.OnMyLocatio
         aMap.setMyLocationEnabled(true);
 
         initJingWeiDatas();
+
+        //动画
+        initDongHua();
+    }
+
+    /**
+     * 动画
+     */
+    private void initDongHua() {
+
     }
 
     @Override
@@ -133,6 +147,21 @@ public class GaoDeMapActivity extends RxBaseActivity implements AMap.OnMyLocatio
     @Override
     public void setTitle() {
 
+    }
+
+    /**
+     * 导航成功！！！！
+     * @param view
+     */
+    @OnClick({R.id.btn_daohang})
+    void onClick(View view){
+        switch (view.getId()){
+            case R.id.btn_daohang:
+                if (AmapUtils.isInstallByRead("com.autonavi.minimap")){
+                    AmapUtils.goToNaviActivity(this,"CustomPic",null,"30.309237","120.259904","1","2");
+                }
+                break;
+        }
     }
 
     @Override

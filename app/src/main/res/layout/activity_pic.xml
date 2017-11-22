@@ -8,8 +8,19 @@
     tools:context="com.chinaoly.cp.PicActivity">
 
 
-    <com.chinaoly.cp.view.CircleCustomView
+    <!--<com.chinaoly.cp.view.CircleCustomView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <!--<com.chinaoly.cp.view.ShanView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <!--<com.chinaoly.cp.view.CustomPicView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <com.chinaoly.cp.view.DongHuaView1
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-
 </RelativeLayout>
